@@ -1,0 +1,6 @@
+{
+    "Addons": true,
+    "BlockIo": true,
+    "Upgrader": true,
+    "TatumIo": true
+}

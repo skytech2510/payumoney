@@ -1,0 +1,17 @@
+{
+    "name": "BlockIo",
+    "alias": "blockio",
+    "core": true,
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BlockIo\\Providers\\BlockIoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Entities/helpers.php"
+    ],
+    "requires": [],
+    "version": 3.5
+}

@@ -1,0 +1,42 @@
+.mt-15 {
+    margin-top: 15px;
+}
+
+.amount-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+.amount-hint, .priority-hint {
+    font-size: 14px;
+}
+
+.d-none {
+    display: none;
+}
+
+.ml-0 {
+    margin-left: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.confirm-btns {
+    width: 35px;
+    height: 35px;
+    background-color: #58c42b !important;
+    border-radius: 50%;
+    border: 1px solid #247701;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    text-shadow: #009933;
+    margin: 0 auto;
+}

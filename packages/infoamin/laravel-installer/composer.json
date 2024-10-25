@@ -1,0 +1,19 @@
+{
+	"name": "infoamin/laravel-installer",
+	"description": "Simple Laravel Web Installer",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Md.Aminul Islam",
+			"email": "infoamin.cse@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Infoamin\\Installer\\": "src/"
+		}
+	}
+}

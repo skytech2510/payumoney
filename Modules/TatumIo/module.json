@@ -1,0 +1,16 @@
+{
+    "name": "TatumIo",
+    "alias": "tatumio",
+    "core": true,
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TatumIo\\Providers\\TatumIoServiceProvider"
+    ],
+    "files": [
+        "Entities/helpers.php"
+    ],
+    "version": "1.0.0"
+
+}

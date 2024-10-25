@@ -1,0 +1,230 @@
+.addons-section {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 70px
+}
+#addons-form-container{
+  display: none;
+}
+.addons-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addons-form p{
+  margin-bottom:5px;
+}
+.addons-form p span{
+  color: red;
+}
+.addons-form input{
+  width: 400px; 
+  border: 1px solid rgba(150, 150, 150, 0.692); 
+  padding: 7px;
+  border-radius: 5px
+}
+.addons-form .ins-module{
+  position: absolute; 
+  right: 0px; 
+  top: 10; 
+  padding: 11px; 
+  border: 0;
+  font-size:small;
+  cursor: pointer; 
+  background-color: #e1e4e6;
+  color: #415164; 
+  text-transform: uppercase; 
+  border-top-right-radius: 5px; 
+  border-bottom-right-radius: 5px
+}
+
+.addons-form .ins-module:hover{
+  background-color: #e6e6e6;
+  color:#333;
+  border-color: #e6e9eb;
+}
+
+.addons-form .addons-error {
+  color: red;
+  margin-top: -1px
+}
+
+.addons-form .submit-style{
+  background-color: #04a9f5; 
+  color: white; 
+  font-size: 16px; 
+  padding: 8px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer
+}
+
+.addons-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px
+}
+
+.addons-table-container {
+  overflow-x: auto;
+}
+.addons-card .upl-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid #04a9f5;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 16px;
+  color: #04a9f5;
+  height: 50%;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.addons-card .upl-button:hover {
+  background-color: #04a9f5;
+  color: white
+}
+
+.addons-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #eaeaea;
+  overflow-x: auto
+}
+/* .addons-table-container  tr:nth-of-type(odd) { 
+    background: #eee; 
+  } */
+.addons-table-container th {
+  background: #eeeeee;
+  color: #3f4d67;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+.addons-table-container td {
+  padding: 8px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+}
+.addons-table-container .addons-img {
+  width: 130px;
+  height: 80px
+}
+.addons-table-container td:first-child {
+  width: 100px;
+  min-width: 100px;
+  margin-left: 50px
+}
+.addons-table-container td:nth-child(2) {
+  width: 600px;
+  min-width: 600px;
+  max-width: 600px;
+  word-wrap: break-word
+}
+.addons-table-container td:last-child {
+  width: 45%;
+  white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  white-space: pre-wrap;       /* css-3 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
+}
+.addons-table-container a {
+  text-decoration: none;
+  font-weight: 400;
+}
+.addons-table-container a:hover {
+  color: black;
+}
+.addons-table-container .addons-anchor {
+  color: #04a9f5;
+}
+.addons-table-container .addons-act {
+  color: #04a9f5;
+}
+.addons-table-container .addons-dct {
+  color: red;
+}
+
+.addons-table-container .text-version {
+  padding-top: 10px;
+  color: #6c757d;
+}
+
+.addons-card h5 {
+  margin-bottom: 0;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 1.1;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .addons-form input {
+    width: 90% !important;
+  }
+}
+
+.input-file-container {
+  position: relative; 
+  margin-top: 10px;
+}
+
+.input-file-container-purchase {
+  position: absolute;
+  right: 50px;
+  bottom: 25px;
+}
+
+.addon-alert {
+  padding: 20px;
+  font-size: 14px;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.addon-alert-success {
+  color: #299b85;
+  border-color: #c0f9eb;
+  background-color: #d4edda;
+}
+
+.addon-alert-danger {
+  color: #994442;
+  border-color: #fccac7;
+  background-color: #f8d7da;
+}
+
+.addon-alert-closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 25px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.verify-btn{
+  background-color: #04a9f5;
+  color: white;
+  font-size: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,200 @@
+html,
+body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+table,
+td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+
+table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+}
+
+table table table {
+    table-layout: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+.tabl-width {
+    width: 100%;
+    max-width: 595px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.main-class {
+    margin: 0;
+    padding: 0 !important;
+    background-color: #ffffff;
+    margin: 0 auto !important;
+}
+
+.px-40 {
+    padding: 40px 20px;
+}
+
+.logo-container {
+    text-align: start;
+    padding: 38px 30px 21px 30px;
+}
+
+.px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+
+.align-rigt {
+    text-align: right;
+}
+
+.text-sm {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3F405B;
+    margin-bottom: 4px;
+}
+
+.text-md {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F405B
+}
+
+.text-lg {
+    font-size: 20px;
+    line-height: 20px;
+    color: #3F405B;
+    font-weight: 600;
+    margin: 0;
+    word-break: break-all;
+}
+
+.py-24 {
+    padding: 24px 30px 24px 30px;
+}
+
+.pxy-36 {
+    padding: 0 30px 36px 30px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.px-desc {
+    padding: 0 30px 20px 30px;
+}
+
+.desc-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3F405B
+}
+
+.align-center {
+    text-align: center;
+}
+
+.pb-5 {
+    padding: 10px 30px 10px 0
+}
+
+.pt-10 {
+    padding: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-30 {
+    padding-right: 30px;
+}
+
+.px-info {
+    padding: 20px 30px 0 30px;
+}
+
+.px-info-text {
+    padding: 10px 0 0 30px;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.pl-80 {
+    padding-left: 80px;
+}
+
+.pr-120 {
+    padding-right: 120px;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.text-primary {
+    color: #635bfe !important;
+}
+
+.text-success {
+    color: #2AAA5E !important;
+}
+
+.text-warning {
+    color: #FFAF30 !important;
+}
+
+.text-danger {
+    color: #D9204C !important;
+}

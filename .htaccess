@@ -1,0 +1,52 @@
+<FilesMatch "^\.">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header set X-Content-Type-Options nosniff
+    Header set X-XSS-Protection "1; mode=block"
+
+    # Content-Security-Policy - starts
+    Header set Content-Security-Policy "default-src 'none'"
+    Header set Content-Security-Policy "script-src 'self' https://code.jquery.com https://cdnjs.cloudflare.com https://cdn.rawgit.com https://cdn.jsdelivr.net https://unpkg.com https://www.google.com/recaptcha/api.js"
+    Header set Content-Security-Policy "connect-src 'self'"
+
+    Header set Strict-Transport-Security "max-age=631138519; includeSubDomains"
+    Header always set feature-policy "autoplay 'none'; camera 'none'"
+    Header always set Referrer-Policy "no-referrer-when-downgrade"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # START - Disable server signature
+    ServerSignature Off
+
+    # enabling HTTPS
+    # RewriteCond %{HTTPS} !=on
+    # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # disabling the TRACE method from your web server
+    RewriteCond %{REQUEST_METHOD} ^TRACE
+    RewriteRule .* - [F]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

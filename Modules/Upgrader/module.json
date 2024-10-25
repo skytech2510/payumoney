@@ -1,0 +1,15 @@
+{
+    "name": "Upgrader",
+    "alias": "upgrader",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "providers": [
+        "Modules\\Upgrader\\Providers\\UpgraderServiceProvider"
+    ]
+}

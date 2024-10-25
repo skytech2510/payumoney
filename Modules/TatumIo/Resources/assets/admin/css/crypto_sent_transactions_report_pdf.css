@@ -1,0 +1,67 @@
+body {
+    font-family: "DeJaVu Sans", Helvetica, sans-serif;
+    color: #121212;
+    line-height: 15px;
+}
+
+table, tr, td {
+    padding: 6px 6px;
+    border: 1px solid black;
+}
+
+tr {
+    height: 40px;
+}
+
+.section-width {
+    width:100%;
+    margin:0px auto;
+}
+
+.section-height {
+    height:80px";
+}
+
+.section-style {
+    width:80%; 
+    float:left; 
+    font-size:13px; 
+    color:#383838; 
+    font-weight:400;
+}
+
+.logo-section {
+    width:20%; 
+    float:left;
+    font-size:15px; 
+    color:#383838; 
+    font-weight:400;
+}
+
+.clear-both {
+    clear:both;
+}
+
+.mt-30 {
+    margin-top:30px;
+}
+
+.table-section {
+    width:100%; 
+    border-radius:1px; 
+    border-collapse: collapse; 
+    text-align:center;
+}
+
+.table-row-header {
+    background-color:#f0f0f0; 
+    font-size:12px; 
+    font-weight:bold;
+}
+
+.table-row-text {
+    background-color:#fff; 
+    text-align:center; 
+    font-size:12px; 
+    font-weight:normal;
+}

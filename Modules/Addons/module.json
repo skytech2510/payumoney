@@ -1,0 +1,17 @@
+{
+    "name": "Addons",
+    "alias": "addons",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Addons\\Providers\\AddonsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Entities/helper.php"
+    ],
+    "requires": []
+}

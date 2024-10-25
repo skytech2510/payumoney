@@ -1,0 +1,23 @@
+{
+    "name": "techvillage/upgrader-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "A. H. Millat",
+            "email": "millat.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Upgrader\\": ""
+        }
+    }
+}

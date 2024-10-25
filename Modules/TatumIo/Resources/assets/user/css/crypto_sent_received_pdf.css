@@ -1,0 +1,155 @@
+body {
+	font-family: 'Lato','sans-serif';
+	color:#121212;
+}
+hr {
+	border-top:1px solid #f0f0f0;
+}
+table {
+	border-collapse:collapse;
+}
+.code td{
+	padding:5px;
+}
+
+.logo-section {
+	width:900px;
+	margin:auto;
+	top:20px;
+	position:relative;
+}
+
+.mb-40 {
+        margin-bottom:40px;
+}
+
+.mt-20 {
+	margin-top:20px;
+}
+
+.receiver-address-title {
+	font-size:16px; 
+	color:#000000; 
+	line-height:25px; 
+	font-weight:bold;
+}
+
+.receiver-address {
+	font-size:15px; 
+	color:#4e5c6e; 
+	line-height:22px;
+}
+
+.confirmations-title {
+	font-size:16px; 
+	color:#000000; 
+	line-height:25px; 
+	font-weight:bold;
+}
+
+.confirmations {
+	font-size:15px; 
+	color:#4e5c6e; 
+	line-height:22px;
+}
+
+.transaction-id-title {
+	font-size:16px; 
+	color:#000000; 
+	line-height:25px; 
+	font-weight:bold;
+}
+
+.transaction-id {
+	font-size:15px; 
+	color:#4e5c6e; 
+	line-height:22px;
+}
+
+.transaction-date-title {
+	font-size:16px; 
+	color:#000000; 
+	line-height:25px; 
+	font-weight:bold;
+}
+
+.transaction-date {
+	font-size:15px; 
+	color:#4e5c6e; 
+	line-height:22px;
+}
+
+.status-title {
+	font-size:16px; 
+	color:#000000; 
+	line-height:25px; 
+	font-weight:bold;
+}
+
+.status {
+	font-size:15px; 
+	color:#4e5c6e; 
+	line-height:22px;
+}
+
+.table-width {
+	margin-top:20px;
+	width:300px;
+}
+
+.details-label {
+	font-size:16px; 
+	color:#000000; 
+	font-weight:bold;
+}
+
+.transaction-label-text {
+	font-size:15px; 
+	color:#000000;
+}
+
+.transaction-value-text {
+	font-size:15px; 
+	color:#4e5c6e; 
+	text-align:right;
+}
+
+.pb-10 {
+	padding-bottom:10px;
+}
+
+.hr-line {
+	border-top:1px solid #eaeaea; 
+	padding-top:0;
+	margin-bottom:3px;
+}
+
+.total-text {
+	font-size:15px; 
+	color:#000000; 
+	font-weight:bold;
+}
+
+.total-value {
+	font-size:15px; 
+	color:#4e5c6e; 
+	text-align:right; 
+	font-weight:bold;
+}
+
+.mt-20 {
+	margin-top:20px;
+}
+
+.crypto-received-tnx-label {
+	font-size:16px; 
+	color:#000000; 
+	line-height:25px; 
+	font-weight:bold;
+}
+
+.crypto-received-tnx-value {
+	font-size:15px; 
+	color:#4e5c6e; 
+	line-height:22px;
+}

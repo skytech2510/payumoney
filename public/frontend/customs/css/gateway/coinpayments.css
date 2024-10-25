@@ -1,0 +1,212 @@
+
+.jst-hours {
+    float: left;
+    }
+    .jst-minutes {
+    float: left;
+    }
+    .jst-seconds {
+    float: left;
+    }
+    .jst-clearDiv {
+    clear: both;
+    }
+    .jst-timeout {
+    color: red;
+}
+
+.rounded-8 {
+    border-radius: 8px !important;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.p-24 {
+    padding: 24px;
+}
+
+.dark .deposit-search_item {
+    border: 1px solid var(--bs-dark);
+}
+
+.dark .deposit-search_item-content .text-gray-100 {
+    color: var(--bs-muted) !important;
+}
+
+.dark .deposit-fund_transaction {
+    border-bottom: 1px solid var(--bs-dark);
+}
+
+.dark .deposit-fund_transaction .text-dark {
+    color: var(--bs-muted) !important;
+}
+
+.w-break-all {
+    word-break: break-all;
+}
+
+.transac-summery.gy-2 {
+    --bs-gutter-y: 24px;
+}
+
+/* media Query */
+@media only screen and (min-width: 1880px) {
+    .transaction-summery.pxy-62 {
+        padding: 62px calc(15% - 1px);
+        border-radius: 8px;
+    }
+}
+
+/* start deposit fund css */
+.deposit_fund {
+    display: flex;
+}
+
+.deposit-search_area {
+    display: flex;
+    align-items: center;
+}
+
+.deposit-search_input:focus::placeholder {
+    color: transparent !important;
+}
+
+.input-form-control:focus::placeholder {
+    color: transparent !important;
+}
+
+.deposit-search_input::placeholder {
+    font-size: 16px !important;
+    color: var(--bs-gray) !important;
+    font-family: "Gilroy-Regular";
+}
+
+.deposit-search_input:hover {
+    border: 1px solid var(--bs-primary) !important;
+}
+
+.deposit-search_input:focus {
+    box-shadow: none !important;
+    border: 1px solid var(--bs-primary) !important;
+}
+
+.deposit-search_input {
+    border: 1px solid var(--bs-muted-100) !important;
+    border-radius: 6px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    padding: 10px !important;
+    padding-left: 15px !important;
+    background-color: var(--bs-white-50) !important;
+    font-size: 16px !important;
+    color: var(--bs-dark) !important;
+    font-family: "Gilroy-Medium";
+    transition: 0.2s;
+}
+
+.dark .deposit-search_input {
+    border: 1px solid var(--bs-dark) !important;
+    background-color: #2e2f44 !important;
+    color: var(--bs-muted) !important;
+}
+
+.dark .deposit-search_input::placeholder {
+    color: var(--bs-gray-100) !important;
+}
+
+.deposit-search_item-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.deposit-search_item {
+    min-width: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: none;
+    border: 1px solid var(--bs-muted-100);
+    border-radius: 4px;
+    padding: 10px 20px 10px 10px;
+    transition: transform 0.03s ease-out;
+}
+
+.deposit-search_item:active {
+    transform: scale(0.94);
+}
+
+.deposit-search_item-img {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+}
+
+.item-active {
+    background-color: #635BFE;
+}
+
+.dark .item-active {
+    background-color: #3C364D;
+}
+
+.item-active p {
+    color: #ffffff !important;
+}
+
+.deposit-search_item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.deposit-fund_transaction {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0DFEF;
+    padding: 10px 0;
+}
+
+.deposit-fund_submit-btn {
+    width: 70px;
+    min-height: 45px;
+    border: none;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white !important;
+    background: var(--bs-primary) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 1481px) {
+    .deposit-fund_submit-btn {
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .deposit-fund_submit-btn {
+        height: 45px;
+    }
+}
+
+@media only screen and (max-width: 508px) {
+    .deposit-search_item {
+        width: 100%;
+    }
+}
+
+.deposit-fund_transaction-btn {
+    margin-top: 24px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* end deposit fund css */
